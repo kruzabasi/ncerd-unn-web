@@ -15,6 +15,10 @@ export default function Nav() {
       text: "Home"
     },
     {
+      link: "/news/",
+      text: "News & Events"
+    },
+    {
       link: "/projects/",
       text: "Projects"
     },

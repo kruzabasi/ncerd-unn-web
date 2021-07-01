@@ -8,6 +8,7 @@
 .ncerdlogo {
   height: 3.5rem;
   width: 5rem;
+  margin-right: 2rem;
   border-radius: 3rem;
 }
 .navItems {
@@ -35,7 +36,7 @@ a:link {
   text-align: center;
   margin-right: 12%;
   margin-left: -12%;
-  height: 250px;
+  height: 19rem;
 }
 button {
   font-size: 30px;
@@ -55,6 +56,9 @@ button {
 
 /* Media screen size */
 @media screen and (min-width: 768px) {
+  .ncerdlogo {
+    margin-right: 2rem;
+  }
   button {
     display: none;
   }
@@ -62,6 +66,7 @@ button {
   .links {
     height: auto;
     display: flex;
+    margin-right: -0.1rem;
   }
 
   li {
