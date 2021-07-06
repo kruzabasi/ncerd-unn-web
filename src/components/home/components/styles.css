@@ -1,0 +1,32 @@
+.main-sec {
+  display: flex;
+  flex-direction: column;
+}
+.sec-bit {
+  width: 85%;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+.project-list {
+  text-align: left;
+  list-style-type: none;
+  padding: 0;
+}
+.project-list > li {
+  margin: 0.5rem auto;
+  padding-left: 0.5rem;
+  border-left: 4px solid #587061;
+  transition: all 0.5s;
+}
+.project-list > li:hover {
+  background-color: #abccb852;
+}
+/* Media screen size */
+@media screen and (min-width: 768px) {
+  .main-sec {
+    flex-direction: row;
+  }
+  .sec-bit {
+    width: 33.333%;
+  }
+}
