@@ -37,7 +37,7 @@ export default function Nav() {
   ];
   return (
     <div className="navBar">
-      <button onClick={Toggle}>
+      <button onClick={Toggle} className="nav-icon">
         {toggle ? <FaTimes /> : <FaAlignRight />}
       </button>
       <div className="navItems">
@@ -47,13 +47,16 @@ export default function Nav() {
         <ul className={toggle ? "links show-nav" : "links"}>
           {li.map((objLink, i) => {
             return (
-              <li key={i}>
-                <a href={objLink.link}>{objLink.text}</a>
+              <li key={i} className="nav-list">
+                <a href={objLink.link} className="nav-link">
+                  {objLink.text}
+                </a>
               </li>
             );
           })}
         </ul>
       </div>
+      <br />
       <hr className="nav-border" />
     </div>
   );
