@@ -29,6 +29,33 @@ export default function About() {
           </p>
         </aside>
         <aside className="sec-bit a-sec-bit">
+          <h3>Director's Statement</h3>
+          <p>
+            The National Centre for Energy Research and Development, University
+            of Nigeria, Nsukka has a vision to build a functional, globally
+            comparable and competitive Centre for Energy research and
+            Development in Renewable and Alternative Energy Technologies,
+            responsive to the challenges of energy and economic needs of Nigeria
+            and beyond.
+          </p>
+          <p>
+            The Centre’s mission is to place the Energy Centre, University of
+            Nigeria in the forefront of Research and Development, innovation and
+            knowledge transfer in the areas of renewable and alternative energy
+            technologies, energy management and environment aimed at meeting the
+            sustainable development goal (SDG) agenda for Nigeria in particular
+            and Africa in general.
+          </p>
+          <p>
+            In realization of its mandate, efforts have been in top gear towards
+            improving and sustaining the research and development activities in
+            the Centre, while maintaining a conducive working environment for
+            staff of the Centre. The Centre has significantly expanded its
+            infrastructural and research facilities to promote research and
+            development activities in fulfillment of its mandates
+          </p>
+        </aside>
+        <aside className="sec-bit a-sec-bit">
           <h3>Staff Profiles</h3> <h5>Administration</h5>
           <ul>
             <li>Dr. P.E. Ugwuoke – Acting Director</li>
@@ -61,31 +88,32 @@ export default function About() {
           </ul>
         </aside>
         <aside className="sec-bit a-sec-bit">
-          <h3>Director's Statement</h3>
-          <p>
-            The National Centre for Energy Research and Development, University
-            of Nigeria, Nsukka has a vision to build a functional, globally
-            comparable and competitive Centre for Energy research and
-            Development in Renewable and Alternative Energy Technologies,
-            responsive to the challenges of energy and economic needs of Nigeria
-            and beyond.
-          </p>
-          <p>
-            The Centre’s mission is to place the Energy Centre, University of
-            Nigeria in the forefront of Research and Development, innovation and
-            knowledge transfer in the areas of renewable and alternative energy
-            technologies, energy management and environment aimed at meeting the
-            sustainable development goal (SDG) agenda for Nigeria in particular
-            and Africa in general.
-          </p>
-          <p>
-            In realization of its mandate, efforts have been in top gear towards
-            improving and sustaining the research and development activities in
-            the Centre, while maintaining a conducive working environment for
-            staff of the Centre. The Centre has significantly expanded its
-            infrastructural and research facilities to promote research and
-            development activities in fulfillment of its mandates
-          </p>
+          <h3>Structures</h3> <p>The following structures are in place:</p>
+          <ol>
+            <li>
+              {" "}
+              A two-storey Administration building with a 1000-seat capacity
+              conference auditorium, which has already been commissioned.
+            </li>
+            <li>
+              {" "}
+              A Solar Thermal building comprising of four laboratories, a
+              300-seat capacity seminar hall and many office spaces and already
+              commissioned.
+            </li>
+            <li>
+              {" "}
+              A Solar Photovoltaic building comprising four laboratories, a
+              300-seat capacity seminar hall and office spaces.
+            </li>
+            <li>
+              {" "}
+              A National Stove Eligibility Laboratory for testing and
+              certification of Clean Cook Stoves manufactured locally. The
+              Laboratory was commissioned on September 17, 2015.
+            </li>
+            <li>A Renewable Energy-powered Guest House.</li>
+          </ol>
         </aside>
       </section>
     </div>
