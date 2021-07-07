@@ -1,0 +1,19 @@
+@media screen and (min-width: 768px) {
+  .about-sec {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .a-sec-bit {
+    width: 94%;
+  }
+}
+.a-sec-bit > ul > li {
+  margin: 1rem 0;
+}
+li,
+p {
+  color: #1b1b1ba1;
+}
+.a-sec-bit > h5 {
+  color: #1b1b1ba1;
+}
