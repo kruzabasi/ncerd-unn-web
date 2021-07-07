@@ -23,10 +23,6 @@ export default function Nav() {
       text: "Projects"
     },
     {
-      link: "/staff/",
-      text: "Staff Profiles"
-    },
-    {
       link: "/about/",
       text: "About"
     },
