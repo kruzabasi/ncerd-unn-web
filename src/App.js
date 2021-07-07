@@ -6,6 +6,7 @@ import Home from "./components/home/components/Home";
 import Projects from "./components/projects/components/Projects";
 import Contact from "./components/contact/components/Contact";
 import About from "./components/about/components/About";
+import Events from "./components/newsevents/components/Events";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/about" component={About} />
+        <Route exact path="/news" component={Events} />
       </Router>
     </div>
   );
