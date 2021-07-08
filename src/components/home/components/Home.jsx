@@ -1,8 +1,10 @@
 import "./styles.css";
+import HomeCarousel from "./Carousel";
 
 export default function Home() {
   return (
     <div className="home-page">
+      <HomeCarousel />
       <section className="main-sec">
         <aside className="sec-bit">
           <h3>Directors Statement</h3>
@@ -14,6 +16,9 @@ export default function Home() {
             responsive to the challenges of energy and economic needs of Nigeria
             and beyond.
           </p>
+          <a href="/about">
+            <button className="home-button">Read More</button>
+          </a>
         </aside>
         <aside className="sec-bit">
           <h3>Brief History</h3>
@@ -26,6 +31,9 @@ export default function Home() {
             number 12 of 1988 and number 19 of 1989 and charged it with the
             legal mandate of supervising the four Centres.
           </p>
+          <a href="/about">
+            <button className="home-button">Read More</button>
+          </a>
         </aside>
         <aside className="sec-bit">
           <h3>Related Projects</h3>
@@ -50,7 +58,7 @@ export default function Home() {
             </li>
           </ul>
           <a href="/projects">
-            <button>View All</button>
+            <button className="home-button">View All</button>
           </a>
         </aside>
       </section>

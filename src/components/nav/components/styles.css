@@ -50,6 +50,7 @@
   border-bottom: 4px solid #739a82;
   background-color: #fff;
   position: fixed;
+  z-index: 2;
 }
 .nav-icon {
   font-size: 30px;

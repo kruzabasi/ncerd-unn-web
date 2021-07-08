@@ -37,9 +37,9 @@ export default function Nav() {
         {toggle ? <FaTimes /> : <FaAlignRight />}
       </button>
       <div className="navItems">
-        <div>
+        <a href="/">
           <img src={ncerdlogo} alt="NCERD-Logo" className="ncerdlogo" />
-        </div>
+        </a>
         <ul className={toggle ? "links show-nav" : "links"}>
           {li.map((objLink, i) => {
             return (

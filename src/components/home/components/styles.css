@@ -1,3 +1,17 @@
+.card {
+  height: 25rem;
+  align-items: center;
+  overflow-x: hidden;
+}
+.card-con {
+  margin: 0.5rem;
+  height: 25rem;
+  overflow-y: hidden;
+}
+.home-page {
+  display: flex;
+  flex-direction: column;
+}
 .main-sec {
   display: flex;
   flex-direction: column;
@@ -20,6 +34,71 @@
 .project-list > li:hover {
   background-color: #abccb852;
 }
+.home-button {
+  height: 2.5rem;
+  width: 7rem;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  transition: all 0.4s;
+  background-color: #587061;
+}
+.home-button:hover {
+  font-size: 0.9rem;
+  background-color: #50976b;
+}
+.carousel-card2 {
+  background-size: contain;
+  background: linear-gradient(
+      0.23deg,
+      rgba(0, 0, 0, 0.88) 8.79%,
+      rgba(0, 0, 0, 0.06) 66.99%
+    ),
+    url("../assets/lllk.png") repeat;
+}
+.carousel-card1 {
+  background: linear-gradient(
+      0.23deg,
+      rgba(0, 0, 0, 0.88) 8.79%,
+      rgba(0, 0, 0, 0.06) 66.99%
+    ),
+    url("../assets/9FB59627-471B-4449-87AF-9D388A07DB2E.JPEG") repeat;
+}
+.carousel-card3 {
+  background-size: contain;
+  background: linear-gradient(
+      0.23deg,
+      rgba(0, 0, 0, 0.88) 8.79%,
+      rgba(0, 0, 0, 0.06) 66.99%
+    ),
+    url("../assets/slide.jpeg") no-repeat;
+}
+.carousel-card4 {
+  background-size: contain;
+  background: linear-gradient(
+      0.23deg,
+      rgba(0, 0, 0, 0.88) 8.79%,
+      rgba(0, 0, 0, 0.06) 66.99%
+    ),
+    url("../assets/slide01.jpeg") no-repeat;
+}
+.slick-dots {
+  position: relative;
+  right: 0;
+  bottom: 5;
+  left: 0;
+  z-index: 15;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-right: 15%;
+  margin-top: -7%;
+  margin-left: 15%;
+  height: 1.5px;
+  padding-left: 0;
+  list-style: none;
+}
 /* Media screen size */
 @media screen and (min-width: 768px) {
   .main-sec {
@@ -27,5 +106,20 @@
   }
   .sec-bit {
     width: 33.333%;
+  }
+  .card {
+    width: 40rem;
+  }
+  .card-con {
+    width: 80%;
+    margin: 0.5rem auto;
+  }
+  .carousel-card1 {
+    background: linear-gradient(
+        0.23deg,
+        rgba(0, 0, 0, 0.88) 8.79%,
+        rgba(0, 0, 0, 0.06) 66.99%
+      ),
+      url("../assets/B415140D-39D6-4C1D-A638-29F5A3C53637.JPEG") repeat;
   }
 }
