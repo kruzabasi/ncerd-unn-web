@@ -5,3 +5,11 @@
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
 }
+.footer-tab {
+  background-color: #121d12c7;
+  color: rgb(187, 193, 199);
+  padding: 2rem 1rem;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 4rem;
+}

@@ -1,5 +1,6 @@
 .contact-section {
   display: flex;
+  margin-bottom: 2.7rem;
   flex-direction: column;
 }
 .contact-subject {
@@ -29,6 +30,7 @@
   .contact-section {
     flex-direction: row;
     text-align: center;
+    margin-bottom: 6.2rem;
   }
   .hide-info {
     display: contents;

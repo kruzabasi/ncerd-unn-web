@@ -7,7 +7,7 @@ import Projects from "./components/projects/components/Projects";
 import Contact from "./components/contact/components/Contact";
 import About from "./components/about/components/About";
 import Events from "./components/newsevents/components/Events";
-
+import Footer from "./components/footer/components/Footer";
 function App() {
   return (
     <div className="App">
@@ -19,6 +19,7 @@ function App() {
         <Route exact path="/about" component={About} />
         <Route exact path="/news" component={Events} />
       </Router>
+      <Footer />
     </div>
   );
 }
