@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ncerd-unn-web/static/css/main.35892800.chunk.css",
+    "main.js": "/ncerd-unn-web/static/js/main.95091e39.chunk.js",
+    "main.js.map": "/ncerd-unn-web/static/js/main.95091e39.chunk.js.map",
+    "runtime-main.js": "/ncerd-unn-web/static/js/runtime-main.0ef46ed6.js",
+    "runtime-main.js.map": "/ncerd-unn-web/static/js/runtime-main.0ef46ed6.js.map",
+    "static/js/2.6b809ac4.chunk.js": "/ncerd-unn-web/static/js/2.6b809ac4.chunk.js",
+    "static/js/2.6b809ac4.chunk.js.map": "/ncerd-unn-web/static/js/2.6b809ac4.chunk.js.map",
+    "index.html": "/ncerd-unn-web/index.html",
+    "static/css/main.35892800.chunk.css.map": "/ncerd-unn-web/static/css/main.35892800.chunk.css.map",
+    "static/js/2.6b809ac4.chunk.js.LICENSE.txt": "/ncerd-unn-web/static/js/2.6b809ac4.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/ncerd-unn-web/static/media/slide01.fb1d6cf7.jpeg",
+    "static/media/ncerdlogo.d045625d.png": "/ncerd-unn-web/static/media/ncerdlogo.d045625d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0ef46ed6.js",
+    "static/js/2.6b809ac4.chunk.js",
+    "static/css/main.35892800.chunk.css",
+    "static/js/main.95091e39.chunk.js"
+  ]
+}
