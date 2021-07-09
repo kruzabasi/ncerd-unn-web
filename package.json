@@ -1,5 +1,4 @@
 {
-  "homepage": "http://kruzabasi.github.io/ncerd-unn-web",
   "name": "ncerd-unn-web",
   "version": "0.1.0",
   "private": true,
@@ -20,7 +19,7 @@
     "node": "14.8.0"
   },
   "scripts": {
-    "start": "PORT=process.env.PORT react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
