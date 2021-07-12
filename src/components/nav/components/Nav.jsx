@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { FaAlignRight, FaTimes } from "react-icons/fa";
 import ncerdlogo from "../assets/ncerdlogo.png";
+import ecnlogo from "../assets/ecnlogo.png";
+import unnlogo from "../assets/logo1.png";
 import "./styles.css";
 
 export default function Nav() {
@@ -37,9 +39,18 @@ export default function Nav() {
         {toggle ? <FaTimes /> : <FaAlignRight />}
       </button>
       <div className="navItems">
-        <a href="/">
-          <img src={ncerdlogo} alt="NCERD-Logo" className="ncerdlogo" />
-        </a>
+        <div className="logos">
+          <a href="/">
+            <img src={ncerdlogo} alt="NCERD-Logo" className="logo ncerdlogo" />
+          </a>
+          <a href="https://energy.gov.ng" target="_blank">
+            <img src={ecnlogo} alt="ecn-Logo" className="logo ecnlogo" />
+          </a>
+          <a href="https://unn.edu.ng" target="_blank">
+            <img src={unnlogo} alt="unn-Logo" className="logo unnlogo" />
+          </a>
+        </div>
+
         <ul className={toggle ? "links show-nav" : "links"}>
           {li.map((objLink, i) => {
             return (

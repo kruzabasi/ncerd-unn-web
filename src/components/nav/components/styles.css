@@ -5,12 +5,25 @@
   padding: 10px;
   position: relative;
 }
-.ncerdlogo {
-  height: 3.5rem;
-  width: 5rem;
-  z-index: 1;
+.logos {
+  display: flex;
   margin-right: 2rem;
+  z-index: 1;
+}
+.logo {
+  height: 3.5rem;
   border-radius: 3rem;
+}
+.ncerdlogo {
+  width: 5rem;
+}
+.ecnlogo {
+  width: 4rem;
+  margin-left: -0.5rem;
+  margin-top: -0.2rem;
+}
+.unnlogo {
+  margin-top: -0.2rem;
 }
 .navItems {
   display: flex;
@@ -74,7 +87,7 @@
 
 /* Media screen size */
 @media screen and (min-width: 768px) {
-  .ncerdlogo {
+  .logos {
     margin-right: 2rem;
   }
   .nav-icon {
